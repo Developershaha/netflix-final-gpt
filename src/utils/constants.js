@@ -24,7 +24,8 @@ export const SUPPORTED_LANGAUGES = [
   { identifier: "marathi", name: "marathi" },
 ];
 
-export const OPENAI_KEY =
-  "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";
+// export const OPENAI_KEY =
+//   "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";
 
-// export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+export const OPENAI_KEY =
+  "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";

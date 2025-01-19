@@ -92,7 +92,10 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <BackGroundImage />
+      <div>
+        <BackGroundImage />
+      </div>
+
       <form
         onSubmit={(e) => e.preventDefault()}
         className="w-full md:w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"

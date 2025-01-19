@@ -3,9 +3,9 @@ import { BACKGROUND_IMAGE } from "../utils/constants";
 
 function BackGroundImage() {
   return (
-    <div className="fixed -z-10">
+    <div className="fixed inset-0 -z-10">
       <img
-        className="h-screen object-cover"
+        className="h-full w-full object-cover"
         src={BACKGROUND_IMAGE}
         alt="background-img"
       />

@@ -24,8 +24,7 @@ function GptSearchBar() {
   };
 
   const handleGptSearchClick = async () => {
-    console.log("OPENAI_KEYxcxzcxzc", OPENAI_KEY);
-    console.log("first", SearchText?.current?.value);
+    console.log("first", OPENAI_KEY);
     const gptQuery =
       "Act as a Movie Recommendation system and suggest some movies for the query : " +
       SearchText.current.value +
